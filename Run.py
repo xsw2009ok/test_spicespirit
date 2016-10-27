@@ -21,7 +21,7 @@ def getNowTime():
 
 '''生成报告'''
 def runTestCase():
-    htmlpath = os.getcwd() + '\\TestReport\\TestReport_' +getNowTime()+'.html'
+    htmlpath = os.getcwd() + '\\TestReport\\TestReport.html'
     fp = open(htmlpath,'wb+')
     runner = HTMLTestRunner.HTMLTestRunner(
         stream=fp,
