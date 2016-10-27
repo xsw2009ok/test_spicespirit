@@ -6,7 +6,6 @@ from TestBase.LoginElement import *
 
 class LoginPage(Utils):
 
-    result = ''
 
     def userlogin(self,driver,user,passwd):
         self.wait()
