@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<value>
+		<!-- 测试地址 -->
+		<testurl>http://192.168.100.241/</testurl>
+		<!-- 客服账号 -->
+		<kefu_username>ceshixiadan</kefu_username>
+		<kefu_password>123456</kefu_password>
+		<kefu_result>测试下单</kefu_result>
+		<!-- 中心库房账号 -->
+		<gongyinglian_username>ceshigongyl</gongyinglian_username>
+		<gongyinglian_password>123456</gongyinglian_password>
+		<gongyinglian_result>测试供应链</gongyinglian_result>
+		<!-- 物流账号 -->
+		<wuliu_username>ceshiwuliu</wuliu_username>
+		<wuliu_password>123456</wuliu_password>
+		<wuliu_result>测试物流</wuliu_result>
+		<!-- 外埠物流账号 -->
+		<waibu_username>ceshiwaibu</waibu_username>
+		<waibu_password>123456</waibu_password>
+		<waibu_result>测试外埠</waibu_result>
+		<!-- 数据库配置信息 -->
+		<mysql_url>192.168.100.198</mysql_url>
+		<mysql_db>spicespirit</mysql_db>
+		<mysql_username>root</mysql_username>
+		<mysql_password>spice</mysql_password>
+		<!-- 申购的数量 -->
+		<gapplicationnumber>20</gapplicationnumber>
+		<!-- 下单会员手机号 -->
+		<order_phone>15801115436</order_phone>
+		<!-- 使用站点id-->
+		<station_id>51</station_id>
+		<!-- 使用站点名字-->
+		<station_name>大钟寺</station_name>
+		<!-- 使用区域名字-->
+		<area>北京</area>
+	</value>
+</config>
